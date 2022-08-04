@@ -1,9 +1,9 @@
-
+import styles from './Sidebar.module.css'
 
 const Sidebar = () => {
     return (
         <div>
-            <aside id="sidebar">
+            <aside className={styles.sidebar}>
 
                 <p>Desenvolvedor Front-end</p>
 

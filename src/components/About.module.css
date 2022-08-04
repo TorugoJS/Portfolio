@@ -1,0 +1,9 @@
+.about{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(175, 127, 127);
+    width:100%;
+    height: 300px;
+    
+}
