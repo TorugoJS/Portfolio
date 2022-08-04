@@ -1,0 +1,69 @@
+.tech{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    width: 100%;
+    background-color: gray;
+}
+
+.html{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:blanchedalmond;
+    width: 100%;
+    flex-wrap: wrap
+}
+
+.css{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:blanchedalmond;
+    width: 100%;
+    flex-wrap: wrap
+}
+
+.sass{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:blanchedalmond;
+    width: 100%;
+    flex-wrap: wrap
+}
+.boot{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:blanchedalmond;
+    width: 100%;
+    flex-wrap: wrap
+}
+.react{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:blanchedalmond;
+    width: 100%;
+    flex-wrap: wrap
+}
+.js{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:blanchedalmond;
+    width: 100%;
+    flex-wrap: wrap
+}
+.git{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:blanchedalmond;
+    width: 100%;
+    flex-wrap: wrap
+}
+
+
+    
