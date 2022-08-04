@@ -1,4 +1,6 @@
 import AboutContainer from "./AboutContainer"
+import TechnologiesContainer from "./TechnologiesContainer";
+
 
 
 const MainContent = () => {
@@ -6,6 +8,7 @@ const MainContent = () => {
         <div>
             
             <AboutContainer />
+            <TechnologiesContainer />
         </div>
     )
 }
