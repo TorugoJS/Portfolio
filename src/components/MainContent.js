@@ -7,6 +7,7 @@ const MainContent = () => {
     return (
         <div>
             
+            
             <AboutContainer />
             <TechnologiesContainer />
         </div>

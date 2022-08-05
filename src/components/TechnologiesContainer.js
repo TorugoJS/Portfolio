@@ -25,7 +25,7 @@ const technologies = [
 const TechnologiesContainer = () => {
   return (
     <>
-      <h2>As tecnologias em que possuo experiência com projetos pessoais, são: </h2>
+      <h2 className={styles.h2}>As tecnologias em que possuo experiência com projetos pessoais, são: </h2>
       <section className={styles.tech} >
 
         {technologies.map((tech, text) => (
