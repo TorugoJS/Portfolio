@@ -1,7 +1,13 @@
 .redes{
+    font-size: 10px;
+    display: flex;
     background-color:aliceblue ;
+    align-items: center;
+    justify-content: center;
 }
 .btn{
-    background-color: beige;
-    font-size: 50px;
+    background-color: rgb(5, 5, 4);
+    font-size: 2px;
+    margin: 5px;
+    border-radius: 80%;
 }

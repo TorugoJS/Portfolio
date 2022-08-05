@@ -16,16 +16,16 @@ const Social = (network) => {
             {network.icon}
          </a>
     ))} */}
-    <a href="https://www.linkedin.com/in/victor-hugodev/" target="_blank" className="btn" id="linkedin" key="linkedin" rel="noreferrer">
+    <a href="https://www.linkedin.com/in/victor-hugodev/" target="_blank" className={styles.btn} id="linkedin" key="linkedin" rel="noreferrer">
       <FaLinkedin />
         </a>
-    <a href="https://github.com/TorugoJS" target="_blank" className="btn" id="github" key="github" rel="noreferrer">
+    <a href="https://github.com/TorugoJS" target="_blank" className={styles.btn} id="github" key="github" rel="noreferrer">
     <FaGithub />
         </a>
-    <a href="https://www.instagram.com/torugo_devjs/" target="_blank" className="btn" id="instagram" key="instagram" rel="noreferrer">
+    <a href="https://www.instagram.com/torugo_devjs/" target="_blank" className={styles.btn} id="instagram" key="instagram" rel="noreferrer">
     <FaInstagram />
         </a>
-        <a href="https://www.facebook.com/Victtor.HuugoOo/" target="_blank" className="btn" id="facebook" key="facebook" rel="noreferrer">
+        <a href="https://www.facebook.com/Victtor.HuugoOo/" target="_blank" className={styles.btn} id="facebook" key="facebook" rel="noreferrer">
     <FaFacebook />
         </a>
   </section>
