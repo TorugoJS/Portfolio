@@ -9,9 +9,9 @@ const Sidebar = () => {
                 
 
 
-                {/* <a href="Curriculo.pdf" target="_blank" className='btn'>
+                <a href="Curriculo.pdf" target="_blank" className='btn'>
                     Download currículo
-                </a> */}
+                </a>
             </div>
         </div>
     )
