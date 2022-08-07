@@ -28,11 +28,13 @@ const TechnologiesContainer = () => {
       <h2 className={styles.h2}>As tecnologias em que possuo experiência com projetos pessoais, são: </h2>
       <section className={styles.tech} >
 
-        {technologies.map((tech, text) => (
+        {technologies.map((tech, text) =>
+         (
           <div className={styles.div}
             id={tech.id}
             text={text}
-            key={tech.id} >
+            key={tech.id}
+            >
             {tech.icon}
             <div>
               <h3 className={styles.h3}>{tech.name}</h3>
