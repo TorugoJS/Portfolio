@@ -4,7 +4,7 @@ import Home from "./Sessões/Home/Home";
 import SobreMim from "./Sessões/sobre-mim/SobreMim";
 import Tecnologias from "./Sessões/Tecnologias/Tecnologias";
 import Footer from './Sessões/Footer/Footer'
-import SwiperCarousel from "./Sessões/Carousel/SwiperCarousel";
+// import SwiperCarousel from "./Sessões/Carousel/SwiperCarousel";
 import BotaoTop from "./layout/Botão pra cima/BotaoTop";
 
 
@@ -16,7 +16,7 @@ function App() {
       <Home />
       <SobreMim />
       <Tecnologias />
-      <SwiperCarousel />
+      {/* <SwiperCarousel /> */}
       <Contato  />
       <Footer />
       <BotaoTop/>
