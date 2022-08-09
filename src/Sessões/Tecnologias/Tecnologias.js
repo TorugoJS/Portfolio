@@ -1,46 +1,69 @@
+import { AiFillHtml5, } from 'react-icons/ai'
+import { DiCss3, DiJavascript1, DiSass, DiGit, DiReact } from 'react-icons/di'
+
 import './tecnologias.css'
 
-function Tecnologias(){
+function Tecnologias() {
     return (
-      <div class="habilidades_container">
+        <>
             <h1 className='h1-tecnologias'>Tecnologias</h1>
-            <div class="barra">
-                <div class="informacoes">
-                    <span>HTML</span>
+        <div class="habilidades_container">
+
+
+            <div>
+                <div>
+                    <span class="html">HTML
+                    
+                    <AiFillHtml5 />
+                    </span>
                 </div>
-                <div class="barra_progresso html">
-                    <span></span>
-                </div>
+
+
+
             </div>
 
-            <div class="barra">
-                <div class="informacoes">
+            <div>
+                <div>
                     <span>CSS</span>
+                    <DiCss3 />
                 </div>
-                <div class="barra_progresso css">
-                    <span></span>
-                </div>
+
             </div>
 
-            <div class="barra">
-                <div class="informacoes ">
+            <div>
+                <div>
                     <span>JavaScript</span>
+                    <DiJavascript1 />
                 </div>
-                <div class="barra_progresso javascript">
-                    <span></span>
-                </div>
+
             </div>
 
-    
-            <div class="barra">
-                <div class="informacoes">
+
+            <div>
+                <div>
                     <span>React JS</span>
+                    <DiReact />
                 </div>
-                <div class="barra_progresso react-js">
-                    <span></span>
+
+            </div>
+
+            <div>
+                <div>
+                    <span>Sass</span>
+                    <DiSass />
                 </div>
+
+            </div>
+
+            <div>
+                <div>
+                    <span>Git</span>
+                    <DiGit />
+                </div>
+
             </div>
         </div>
+        </>
     )
 }
 

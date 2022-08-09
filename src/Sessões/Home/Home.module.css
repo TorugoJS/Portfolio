@@ -8,7 +8,8 @@
     margin-top: 80px;
     color: white;
     background-color: rgb(75, 103, 128);
-    border-radius: 60px 0px 10px 0px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 8px rgba(26, 133, 160, 0.9);
    
 }
 

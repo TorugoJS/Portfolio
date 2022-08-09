@@ -5,7 +5,7 @@ import SobreMim from "./Sessões/sobre-mim/SobreMim";
 import Tecnologias from "./Sessões/Tecnologias/Tecnologias";
 import Footer from './Sessões/Footer/Footer'
 // import SwiperCarousel from "./Sessões/Carousel/SwiperCarousel";
-import BotaoTop from "./layout/Botão pra cima/BotaoTop";
+// import BotaoTop from "./layout/Botão pra cima/BotaoTop";
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       {/* <SwiperCarousel /> */}
       <Contato  />
       <Footer />
-      <BotaoTop/>
+      {/* <BotaoTop/> */}
     </div>
   );
 }
