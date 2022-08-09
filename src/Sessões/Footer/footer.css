@@ -1,7 +1,8 @@
 footer{
     width: 100%;
-    background-color: burlywood;
+    background-color: rgb(75, 103, 128);
     font-family:'Poppins', sans-serif ;
+    color: white;
     
 }
 
@@ -17,7 +18,7 @@ footer{
 .quem-sou p:first-child{
     font-size: 30px;
     font-weight: 600;
-    color: black;
+    color: white;
     margin-bottom: 0px;
     transition: 0.3s;
 }
@@ -41,7 +42,6 @@ footer{
     list-style: none;
     font-weight: 500;
     cursor: pointer;
-    color: white;
     font-size: 17px;
     transition: 0.3s;
 }

@@ -5,12 +5,14 @@
 }
 
 .sobreMim{
-    max-width: 850px;
+    max-width: 600px;
     margin: 0 auto;
     display: flex;
+   
     align-items: center;
     padding: 1em;
     padding-bottom: 120px;
+    background-color: rgb(75, 103, 128);
 }
 
 .fotodeperfil2{
@@ -29,9 +31,10 @@
 
 .p_sobre{
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     color: #7a7a7a;
     margin-bottom: 15px;
+    color: #fff;
 }
 
 .button_sobre{
