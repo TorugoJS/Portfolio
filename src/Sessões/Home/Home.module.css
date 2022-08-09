@@ -6,6 +6,9 @@
     margin: 0 auto;
     padding: 1em;
     margin-top: 80px;
+    color: white;
+    background-color: rgb(75, 103, 128);
+    border-radius: 60px 0px 10px 0px;
    
 }
 
@@ -14,11 +17,12 @@
 }
 
 .p_primeiro{
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 600;
     color: rgb(89, 89, 89);
     width: 100%;
     margin-top: 10px;
+    color: white;
     margin-bottom:  10px;
 }
 
@@ -28,6 +32,7 @@
     font-weight: 500;
     color: #7a7a7a;
     margin-bottom: 20px;
+    color: white;
 }
 
 .home_container img{
@@ -44,9 +49,9 @@
 .sobre_mim button{
     padding: 0.6em 1em;
     background-color:burlywood;
-    color:black ;
+    color:rgb(75, 103, 128) ;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 22px;
     border: 0;
     border-radius: 5px;
     cursor: pointer;

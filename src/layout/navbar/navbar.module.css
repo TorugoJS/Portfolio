@@ -41,6 +41,8 @@
     cursor: pointer;
     font-weight: 500; 
     transition: 0.3s;
+    background-color: rgb(81, 213, 236);
+    border-radius: 5px;
 }
 
 .item:hover{

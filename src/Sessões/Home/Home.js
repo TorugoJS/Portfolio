@@ -1,4 +1,4 @@
-// import fotoPefil from '../../imagens/fotodeperfil1.png'
+import fotoPefil from '../imagens/Perfil.jpeg'
 import styles from './Home.module.css'
 
 function Home(){
@@ -30,7 +30,7 @@ function Home(){
                 <button onClick={scrollContato}>contate-me<i class="uil uil-message"></i></button>
             </div>
 
-            {/* <img alt="fotodeperfil" src={fotoPefil}/> */}
+            <img alt="fotodeperfil" src={fotoPefil}/>
 
         </div>
         <div className={styles.scroll_down}>
