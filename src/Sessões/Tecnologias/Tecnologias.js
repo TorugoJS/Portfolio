@@ -7,62 +7,46 @@ function Tecnologias() {
     return (
         <>
             <h1 className='h1-tecnologias'>Tecnologias</h1>
-        <div class="habilidades_container">
+            <div className='habilidades_container'>
 
 
-            <div>
                 <div>
-                    <span class="html">HTML
-                    
-                    <AiFillHtml5 />
+                    <span className='html'>HTML
+                        <AiFillHtml5 />
+                    </span>
+                </div>
+
+                <div>
+                    <span>CSS
+                    <DiCss3 />
+                    </span>
+                </div>
+
+                <div>
+                    <span>JavaScript
+                    <DiJavascript1 />
                     </span>
                 </div>
 
 
-
-            </div>
-
-            <div>
                 <div>
-                    <span>CSS</span>
-                    <DiCss3 />
-                </div>
-
-            </div>
-
-            <div>
-                <div>
-                    <span>JavaScript</span>
-                    <DiJavascript1 />
-                </div>
-
-            </div>
-
-
-            <div>
-                <div>
-                    <span>React JS</span>
+                    <span>React JS
                     <DiReact />
+                    </span>
                 </div>
 
-            </div>
-
-            <div>
                 <div>
-                    <span>Sass</span>
+                    <span>Sass
                     <DiSass />
+                    </span>
                 </div>
 
-            </div>
-
-            <div>
                 <div>
-                    <span>Git</span>
+                    <span>Git
                     <DiGit />
+                    </span>
                 </div>
-
             </div>
-        </div>
         </>
     )
 }

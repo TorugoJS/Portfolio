@@ -20,6 +20,11 @@
   color: rgb(75, 103, 128); ;
 }
 
+/* .html svg{
+  background-color: orange;
+  border-radius: 15px;
+} */
+
 @media screen and (max-width:800px){
   .habilidades_container{
      width: 80%;
