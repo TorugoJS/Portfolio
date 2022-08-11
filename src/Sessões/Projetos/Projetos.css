@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    background-color: rgb(226, 226, 89);
+    list-style: none;
+    max-width: 850px;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+
+
+}
+
+.img1 {
+    width: 200px;
+    display: flex;
+
+}
