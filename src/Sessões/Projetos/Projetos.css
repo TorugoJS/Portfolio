@@ -1,17 +1,37 @@
 .container {
-    display: grid;
-    background-color: rgb(226, 226, 89);
+    display: flex;
+    width: 100%;
+    border-radius: 15px;
+    height: 350px;
+    margin: 0 auto;
     list-style: none;
-    max-width: 850px;
+    background-color: rgb(120, 218, 218);
     justify-content: center;
+    gap: 2em;
     align-items: center;
-    background-position: center;
+
+}
+
+
+.img1 {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    border-radius: 10px;
+    overflow-wrap: break-word;
 
 
 }
 
-.img1 {
+.pp {
+
+    margin-top: 10px;
+    background-color: blue;
     width: 200px;
-    display: flex;
+    padding: 15px;
+    word-break: break-all;
+
 
 }
