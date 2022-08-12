@@ -15,10 +15,11 @@
 
 .img1 {
     display: flex;
-    width: 100%;
+    width: 300px;
     height: 200px;
     background-color: black;
     display: flex;
+    margin: 0 auto;
     border-radius: 10px;
     overflow-wrap: break-word;
 
@@ -29,9 +30,10 @@
 
     margin-top: 10px;
     background-color: blue;
-    width: 200px;
+    width: 100%;
     padding: 15px;
     word-break: break-all;
+    border-radius: 20px;
 
 
 }

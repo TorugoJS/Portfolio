@@ -1,4 +1,5 @@
-// import fotoPefil from '../imagens/Perfil.jpeg'
+import LP from '../imagens/LP.jpg'
+import breve from '../imagens/breve.png'
 import './Projetos.css'
 
 const Projetos = () => {
@@ -7,15 +8,18 @@ const Projetos = () => {
     <div className='container'>
 
       <div>
-        <img className='img1' alt="" /><p className='pp'>Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1</p>
+      <img alt="fotodeperfil" className='img1' src={LP} />
+        <p className='pp'> Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1</p>
       </div>
 
       <div>
-        <img className='img1' alt="" /><p className='pp'>Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1</p>
+      <img alt="fotodeperfil" className='img1' src={breve} />
+        <p className='pp'>Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1</p>
       </div>
 
       <div>
-        <img className='img1' alt="" /><p className='pp'>Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1</p>
+      <img alt="fotodeperfil" className='img1' src={breve} />
+        <p className='pp'>Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1</p>
       </div>
 
     </div>
