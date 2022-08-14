@@ -13,13 +13,13 @@ function Home() {
                         Desenvolvedor Front-end
                     </p>
                     <p className={styles.p_segundo}>Sou estudante de Análise e desenvolvimento de sistemas, e estudante de programação.</p>
-                    
+
                 </div>
 
                 <img alt="fotodeperfil" src={fotoPefil} />
 
             </div>
-           
+
         </>
     )
 }

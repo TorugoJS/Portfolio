@@ -18,32 +18,32 @@ function Tecnologias() {
 
                 <div>
                     <span>CSS
-                    <DiCss3 />
+                        <DiCss3 />
                     </span>
                 </div>
 
                 <div>
                     <span>JavaScript
-                    <DiJavascript1 />
+                        <DiJavascript1 />
                     </span>
                 </div>
 
 
                 <div>
                     <span>React JS
-                    <DiReact />
+                        <DiReact />
                     </span>
                 </div>
 
                 <div>
                     <span>Sass
-                    <DiSass />
+                        <DiSass />
                     </span>
                 </div>
 
                 <div>
                     <span>Git
-                    <DiGit />
+                        <DiGit />
                     </span>
                 </div>
             </div>

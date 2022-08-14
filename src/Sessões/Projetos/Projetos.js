@@ -8,17 +8,17 @@ const Projetos = () => {
     <div className='container'>
 
       <div>
-      <img alt="fotodeperfil" className='img1' src={LP} />
+        <img alt="fotodeperfil" className='img1' src={LP} />
         <p className='pp'> Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1</p>
       </div>
 
       <div>
-      <img alt="fotodeperfil" className='img1' src={breve} />
+        <img alt="fotodeperfil" className='img1' src={breve} />
         <p className='pp'>Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1</p>
       </div>
 
       <div>
-      <img alt="fotodeperfil" className='img1' src={breve} />
+        <img alt="fotodeperfil" className='img1' src={breve} />
         <p className='pp'>Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1 Projeto 1</p>
       </div>
 
