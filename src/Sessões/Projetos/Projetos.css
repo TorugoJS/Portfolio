@@ -2,10 +2,10 @@
     background-color: rgb(75, 103, 128);
     padding: 20px;
     border-radius: 20px;
-    max-width: 600px;
-    height: 1400px;
+    max-width: 1200px;
+    height: 600px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0 auto;
     flex-wrap: wrap;
 }
@@ -15,22 +15,26 @@ h2{
     color:#fff ;
     text-align: center;
 }
-h1{
+/* h1{
     color:#fff; 
     margin-bottom: 15px;
     font-size: 2.5rem;
-}
+} */
 
 
 .img1 {
-    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
     height: 200px;
-    border-radius: 15px;
+    border-radius: 30%;
     background-color: black;
     display: flex;
     margin: 0 auto;
 }
 .pp {
+    max-width: 300px;
+    flex-wrap: wrap;
     margin-top: 20px;
     background-color: rgb(216, 240, 237);
     padding: 15px;

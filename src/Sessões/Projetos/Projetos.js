@@ -7,11 +7,11 @@ const Projetos = () => {
   return (
 
     <div className='container'>
-      <h1>Projetos</h1>
+      {/* <h1>Projetos</h1> */}
       <div>
         <img alt="fotodeperfil" className='img1' src={LP} />
         <h2>Landing Page</h2>
-        <p className='pp'> Landing page feita com React.js e totalmente responsiva.</p>
+        <p className='pp'> Landing page. Landing page. Landing page. Landing page Landing page Landing page Landing page Landing page</p>
       </div>
 
       <div>
