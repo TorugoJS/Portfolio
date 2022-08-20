@@ -11,21 +11,20 @@
 }
 
 .divcontainer {
-    font-size: 25px;
+    font-size: 26px;
     width: 70%;
     border-radius: 10px;
     text-align: start;
     gap: 2px;
+    box-shadow: 7px 7px 8px rgba(26, 133, 160, 0.9);
    
 }
 
-.p_primeiro {
-    font-size: 25px;
+.dev{
+    font-size: 30px;
     font-weight: 600;
-    /* color: rgb(89, 89, 89); */
     width: 100%;
     margin-top: 10px;
-    color: white;
     border-radius: 10px;
     margin-bottom: 10px;
 }

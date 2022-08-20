@@ -9,7 +9,7 @@ function Home() {
 
                 <div className={styles.divcontainer}>
                     <h1 className={styles.h1title}>Olá, eu sou Victor Hugo</h1>
-                    <p>
+                    <p className={styles.dev}>
                         Desenvolvedor Front-end
                     </p>
                     <p>Sou estudante de Análise e desenvolvimento de sistemas, e estudante de programação.</p>

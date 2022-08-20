@@ -7,7 +7,7 @@ function SobreMim() {
         <>
             <h1 className={styles.h1_sobre}>Sobre mim</h1>
             <div className={styles.sobreMim}>
-                
+
                 <img className={styles.fotoPerfil} alt="fotodeperfil" src={fotoPerfil} />
 
                 <div className={styles.resumo}>

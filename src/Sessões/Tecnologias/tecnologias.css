@@ -1,29 +1,26 @@
 .habilidades_container{
-  width: 850px;
-  background: #fff;
-  border-radius: 20px;
-  padding: 25px 30px;
-  box-shadow: 7px 7px 8px rgba(26, 133, 160, 0.9);
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+   padding: 25px 30px;
+  box-shadow: 10px 7px 7px 3px rgba(26, 133, 160, 0.5);
   margin: 0 auto;
-  font-size: 3.5rem;
-  text-align: center;
+  font-size: 7rem;
+  flex-wrap: wrap;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 60px;
   color: #fff;
-  background-color: rgb(75, 103, 128);
+  /* background-color: rgb(75, 103, 128); */
 }
 
 .h1-tecnologias{
   margin-bottom: 40px;
   text-align: center;
-  font-size: 3.2rem;
-  color: rgb(75, 103, 128); ;
+  font-size: 4rem;
+  color: #fff; ;
 }
 
-/* .html svg{
-  background-color: orange;
-  border-radius: 15px;
-} */
+
 
 @media screen and (max-width:800px){
   .habilidades_container{
