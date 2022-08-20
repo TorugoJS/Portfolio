@@ -7,12 +7,12 @@ function Home() {
         <>
             <div className={styles.home_container}>
 
-                <div className={styles.sobre_mim}>
-                    <h1>Olá, eu sou Victor Hugo</h1>
-                    <p className={styles.p_primeiro}>
+                <div className={styles.divcontainer}>
+                    <h1 className={styles.h1title}>Olá, eu sou Victor Hugo</h1>
+                    <p>
                         Desenvolvedor Front-end
                     </p>
-                    <p className={styles.p_segundo}>Sou estudante de Análise e desenvolvimento de sistemas, e estudante de programação.</p>
+                    <p>Sou estudante de Análise e desenvolvimento de sistemas, e estudante de programação.</p>
 
                 </div>
 

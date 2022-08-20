@@ -1,5 +1,4 @@
-
-.navbar_container{
+.navbar_container {
     background-color: transparent;
     padding: 1em;
     display: flex;
@@ -10,82 +9,80 @@
     margin-top: 10px;
 }
 
-.p_navbar{
+.p_navbar {
     font-size: 30px;
     font-weight: 700;
     cursor: pointer;
     transition: 0.3s;
-    color: rgb(75, 103, 128);
+    color: #fff;
     border-radius: 10px;
 }
 
-.p_navbar:hover{
+.p_navbar:hover {
     color: #eff5f0;
 
 }
 
-.ul{
+.ul {
     display: flex;
     list-style: none;
     align-items: center;
-    
+
 }
 
 /* .item:nth-of-type(1){
     color: rgb(75, 103, 128);
 } */
 
-.item{
+.item {
     margin-right: 1.8em;
     font-size: 22px;
     cursor: pointer;
-    color: rgb(75, 103, 128);
-    font-weight: 600; 
+    color: #fff;
+    font-weight: 600;
     transition: 0.1s;
-    /* background-color: rgb(75, 103, 128); */
-   
     border-radius: 5px;
 }
 
-.item:hover{
-    color: burlywood; 
+.item:hover {
+    color: burlywood;
 }
 
-.toggle{
+.toggle {
     display: none;
     font-size: 22px;
     transition: 0.3s;
 }
 
-.menu{
+.menu {
     transition: 0.5s;
 }
 
-.menu:hover{
+.menu:hover {
     transform: rotate(90deg);
 }
 
-.fechar{
+.fechar {
     transition: 0.4s;
     transform: scale(1);
 }
 
-.fechar:hover{
+.fechar:hover {
     transform: scale(1.5);
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .toggle {
         display: block;
         transition: 0.3s;
     }
 
-    .navbar_container{
+    .navbar_container {
         position: relative;
     }
 
-    .ul{
+    .ul {
         position: absolute;
         display: flex;
         width: 100%;
@@ -94,34 +91,34 @@
         flex-direction: column;
         background-color: #fff;
         opacity: 0;
-        
+
     }
 
-    .item{
-       text-align: center;
-       width: 103%;
-       display: table;
-       padding:10px;
-       font-size: 18px;
-       border-bottom: 1px solid rgba(0, 0, 0, 0.107);
+    .item {
+        text-align: center;
+        width: 103%;
+        display: table;
+        padding: 10px;
+        font-size: 18px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.107);
     }
 
-    .ul li:nth-of-type(5){
-        border:none;
+    .ul li:nth-of-type(5) {
+        border: none;
     }
 }
 
-@media screen and (max-width: 500px){
-    .item{
+@media screen and (max-width: 500px) {
+    .item {
         width: 104.5%;
-     }
+    }
 }
 
 
-.ativa{
-    
+.ativa {
+
     opacity: 1;
     transition: all 0.5s ease;
     left: 0;
     z-index: 1;
-} 
+}

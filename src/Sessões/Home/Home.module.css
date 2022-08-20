@@ -1,155 +1,104 @@
-.home_container{
+.home_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 1em;
     margin-top: 80px;
     color: white;
-    background-color: rgb(75, 103, 128);
     border-radius: 20px;
-    box-shadow: 7px 7px 8px rgba(26, 133, 160, 0.9);
+}
+
+.divcontainer {
+    font-size: 25px;
+    width: 70%;
+    border-radius: 10px;
+    text-align: start;
+    gap: 2px;
    
 }
 
-.home_container h1{
-    font-size: 36px;
-}
-
-.p_primeiro{
+.p_primeiro {
     font-size: 25px;
     font-weight: 600;
-    color: rgb(89, 89, 89);
+    /* color: rgb(89, 89, 89); */
     width: 100%;
     margin-top: 10px;
     color: white;
-    margin-bottom:  10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
-.p_segundo{
+.p_segundo {
     font-size: 20px;
-    width:  100%;
+    border-radius: 10px;
+
+    width: 100%;
     font-weight: 500;
-    color: #7a7a7a;
+    /* color: #7a7a7a; */
     margin-bottom: 20px;
     color: white;
 }
 
-.home_container img{
+.home_container img {
     max-width: 300px;
     height: 300px;
     border-radius: 50%;
-}   
+}
 
-.sobre_mim{
+.sobre_mim {
     width: 40%;
     margin-right: 30px;
+    background-color: rgb(253, 253, 253);
 }
 
-.sobre_mim button{
-    padding: 0.6em 1em;
-    background-color:burlywood;
-    color:rgb(75, 103, 128) ;
-    font-weight: 600;
-    font-size: 22px;
-    border: 0;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.sobre_mim button:hover{
-    background-color:rgb(224, 166, 90);
-}
-
-i{
-    margin-left: 8px;
-    font-size: 20px;
-}
-
-.scroll_down{
-    max-width: 850px;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 20px;
-    cursor: pointer;
-    animation: rolarPraBaixo 2s infinite;
-    transform: translateY(0);
-}
-
-.scroll_down button{
-    background-color: transparent;
-    border: 0;
-    margin-left: 5px;
-    cursor:pointer;
-}
-
-@keyframes rolarPraBaixo {
-    0%, 100% {transform: translateY(0)}
-  50% {transform: translateY(15px)}
-}
-
-.scroll_down i{
-    font-size: 25px;
-    color: brown;
-}
-
-.scroll_down i:nth-of-type(2){
-    margin-left: 5px;
-    cursor: pointer;
-}
-
-@media screen and (max-width:1000px){
-    .home_container{
-        max-width: 700px ;
-    }
-
-    .scroll_down{
+@media screen and (max-width:1000px) {
+    .home_container {
         max-width: 700px;
     }
 
-    .home_container img{
+    .home_container img {
         width: 250px;
         height: 250px;
     }
 }
 
 @media screen and (max-width:768px) {
-    .home_container img{
+    .home_container img {
         width: 220px;
-        height:220px;
-        position:absolute;
+        height: 220px;
+        position: absolute;
         top: 90px;
-        left:0;
-        right:0;
-        margin-left:auto;
-        margin-right:auto;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
         z-index: 0;
-}
+    }
 
     .home_container {
         display: block;
     }
 
-    .home_container h1{
+    .home_container h1 {
         font-size: 32px;
     }
 
-    .sobre_mim{
+    .sobre_mim {
         width: 100%;
         margin-top: 160px;
     }
 
-    .p_primeiro{
+    .p_primeiro {
         margin-top: 2px;
     }
-    .p_segundo{
+
+    .p_segundo {
         margin-bottom: 20px;
     }
 
-    .scroll_down{
+    .scroll_down {
         display: none;
     }
 }
