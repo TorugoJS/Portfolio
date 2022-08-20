@@ -5,9 +5,9 @@ import './Projetos.css'
 const Projetos = () => {
 
   return (
-
+    
     <div className='container'>
-      {/* <h1>Projetos</h1> */}
+      {/* <h1 className="h1proj">Projetos</h1> */}
       <div>
         <img alt="fotodeperfil" className='img1' src={LP} />
         <h2>Landing Page</h2>
