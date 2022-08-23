@@ -30,9 +30,6 @@
 
 }
 
-/* .item:nth-of-type(1){
-    color: rgb(75, 103, 128);
-} */
 
 .item {
     margin-right: 1.8em;
@@ -45,7 +42,7 @@
 }
 
 .item:hover {
-    color: burlywood;
+    color: rgb(31, 163, 224);
 }
 
 .toggle {
