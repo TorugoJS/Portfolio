@@ -1,22 +1,27 @@
-import { AiFillHtml5, } from 'react-icons/ai'
-import { DiCss3, DiJavascript1, DiSass, DiGit, DiReact, DiBootstrap } from 'react-icons/di'
+
+import { DiCss3, DiJavascript1, DiSass, DiGit, DiReact, DiBootstrap, DiHtml5 } from 'react-icons/di'
 
 import './tecnologias.css'
+
 
 function Tecnologias() {
     return (
         <>
             <h1 className='h1-tecnologias'>Tecnologias</h1>
+            
             <div className='habilidades_container'>
-                    <AiFillHtml5 />
-                    <DiCss3 />
-                    <DiJavascript1 />
-                    <DiReact />
-                    <DiBootstrap />
-                    <DiSass />
-                    <DiGit />
+                <DiHtml5 color="#FF8C00" />
+                <DiCss3 color="#0000CD" />
+                <DiJavascript1 color="#FFFF00" />
+                <DiReact color ="#6495D" />
+                <DiBootstrap color="#A020F0" />
+                <DiSass color="#FF69B4" />
+                <DiGit color="#FF8C00" />
+
             </div>
+    
         </>
+        
     )
 }
 

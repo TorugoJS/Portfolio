@@ -5,6 +5,10 @@
     margin-bottom: 40px;
     color: #fff;
 }
+.h1_sobre:hover{
+    color: rgb(31, 163, 224);
+    transition: 0.2s;
+}
 
 .sobreMim {
     max-width: 850px;
@@ -15,7 +19,7 @@
     padding: 1em;
     padding-bottom:40px;
     /* background-color: rgb(75, 103, 128); */
-    box-shadow: 7px 7px 8px rgba(26, 133, 160, 0.9);
+    box-shadow: 7px 7px 8px rgba(26, 133, 160, 0.3);
 }
 
 .fotoPerfil {

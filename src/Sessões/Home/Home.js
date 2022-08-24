@@ -8,7 +8,7 @@ function Home() {
             <div className={styles.home_container}>
 
                 <div className={styles.divcontainer}>
-                    <h1 className={styles.h1title}>Olá, eu sou Victor Hugo</h1>
+                    <h1 className={styles.h1title}>Olá, eu sou Victor Hugo!</h1>
                     <p className={styles.dev}>
                         Desenvolvedor Front-end
                     </p>
