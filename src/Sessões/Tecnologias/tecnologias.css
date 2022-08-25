@@ -20,9 +20,12 @@
   color: #fff; ;
 }
 
-DiHtml5{
-  color: orange;
-  background-color: orange;
+.proj{
+  font-size: 5rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  
 }
 
 

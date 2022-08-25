@@ -9,7 +9,7 @@
 
 .p-contato{
     width: 100%;
-    font-size: 50px;
+    font-size: 60px;
     color: #fff;
     margin-bottom: 20px;
     font-weight: 600;
@@ -20,6 +20,7 @@
 
 .telefone, .email{
     display: flex;
+    font-size: 1.5rem;
     align-items: center;
     padding: 5px 0px;
     color: #fff;

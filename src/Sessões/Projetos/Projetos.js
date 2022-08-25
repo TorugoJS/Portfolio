@@ -5,10 +5,13 @@ import './Projetos.css'
 const Projetos = () => {
 
   return (
-    
+
     <div className='container'>
-      {/* <h1 className="h1proj">Projetos</h1> */}
       <div>
+       
+        <div>
+
+        </div>
         <img alt="fotodeperfil" className='img1' src={LP} />
         <h2>Landing Page</h2>
         <p className='pp'> Landing page. Landing page. Landing page. Landing page Landing page Landing page Landing page Landing page</p>
