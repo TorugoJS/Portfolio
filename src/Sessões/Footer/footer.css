@@ -50,8 +50,9 @@ footer{
 }
 
 .rede-sociais svg{
-    font-size: 30px;
+    font-size: 35px;
     margin-right: 15px;
+    margin-top: 20px;
     color: rgb(255, 255, 255);
     cursor: pointer;
     transition: 0.3s;
@@ -59,7 +60,7 @@ footer{
 }
 
 .rede-sociais svg:hover{
-    color: brown;
+    color: rgb(53, 109, 230);
 }
 
 .copy{

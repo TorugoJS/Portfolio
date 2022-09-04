@@ -39,6 +39,71 @@
     font-size: 18px;
 }
 
+.form-contato{
+    width: 60%;
+}
+
+.input-nome, .input-email{
+    width: 40%;
+    height: 80px;
+    outline: 0;
+    font-size: 17px;
+    padding: 0px 15px;
+
+}
+
+.input-nome::placeholder, .input-email::placeholder, .textarea-mensagem::placeholder{
+    color: black;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.input-nome{
+    margin-right: 30px;
+}
+
+.input-nome, .input-email, .textarea-mensagem{
+    border: 0;
+    background: rgb(252, 238, 238);
+    border-radius: 5px;
+}
+
+.textarea-mensagem{
+    height: 240px;
+    margin-top: 30px;
+    width: 90%;
+    font-size: 17px;
+    padding: 8px 15px;
+    outline: 0;
+    resize:vertical;
+}
+
+.btn-contato{
+    padding: 0.7em 1em;
+    background-color:rgb(47, 127, 218);
+    color:black ;
+    font-weight: 600;
+    font-size: 17px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+.btn-contato:hover{
+    background-color:rgb(224, 166, 90);
+}
+
+.btn-contato i{
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+
 
 @media screen and (max-width:1000px){
     .p-contato{

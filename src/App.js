@@ -5,6 +5,8 @@ import SobreMim from "./Sessões/sobre-mim/SobreMim";
 import Tecnologias from "./Sessões/Tecnologias/Tecnologias";
 import Footer from './Sessões/Footer/Footer'
 import Projetos from "./Sessões/Projetos/Projetos";
+import BotaoUp from "./layout/navbar/Botão pra cima/BotaoTop";
+
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
       <Projetos />
       <Contato  />
       <Footer />
+      <BotaoUp />
+     
     </div>
   );
 }
