@@ -18,8 +18,7 @@
     border-radius: 50px;
     padding: 1em;
     padding-bottom:40px;
-    /* background-color: rgb(75, 103, 128); */
-    box-shadow: 7px 7px 8px rgba(26, 133, 160, 0.3);
+    border: 1px groove rgb(18, 101, 224);
 }
 
 .fotoPerfil {
