@@ -1,6 +1,6 @@
-# Portfolio!
+# Portfolio
 
-Desenvolvido para mostrar minhas habilidades e dizer sobre mim.
+Desenvolvido para mostrar minhas habilidades e dizer sobre mim...
 
 ✔ Estruturação de pastas <br>
 ✔ Componentização <br> 
