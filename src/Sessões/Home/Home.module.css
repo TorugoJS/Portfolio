@@ -40,6 +40,33 @@
     transition: 0.3s;
 }
 
+.sociais {
+    display: flex;
+    color: #fff;
+    margin: 10px;
+    gap: 10px;
+    width: 300px;
+    text-decoration: none;
+    justify-content: space-around;
+    
+
+}
+
+.redeSvg {
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    border-radius: 8px;
+    background-color: rgb(34, 31, 32);
+    transition: 0.5s;
+}
+
+.redeSvg:hover {
+    background-color: rgb(31, 163, 224);
+}
+
 .p_segundo {
     font-size: 20px;
     border-radius: 10px;
@@ -63,17 +90,23 @@
     background-color: rgb(253, 253, 253);
 }
 
-button {
+.curriculo {
     color: #fff;
-    max-width: 250px;
-    margin-top: 15px;
-    text-align: center;
-    height: 2rem;
+    width: 300px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 25px;
+    border-radius: 10px;
     font-size: 1.5rem;
     cursor: pointer;
-    background-color: rgb(31, 163, 224);
-    color: black;
+    background-color: rgb(34, 31, 32);
+    color: #fff;
+    transition: 0.5s;
+}
 
+.curriculo:hover {
+    background-color: rgb(31, 163, 224);
 }
 
 @media screen and (max-width:1000px) {
