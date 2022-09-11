@@ -25,7 +25,7 @@ function Contato(){
                     </div>
                
                     <div className="form-contato">
-                <form>
+                <form action="https://formsubmit.co/victorhugo60046@gmail.com" method="POST">
                     <input type='text' 
                         placeholder="Nome"
                         className='input-nome' 

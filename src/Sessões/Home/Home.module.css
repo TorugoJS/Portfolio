@@ -31,7 +31,8 @@
     border-radius: 10px;
     margin-bottom: 10px;
 }
-.rede svg{
+
+.rede svg {
     font-size: 30px;
     margin-right: 15px;
     color: rgb(255, 255, 255);
@@ -60,6 +61,19 @@
     width: 40%;
     margin-right: 30px;
     background-color: rgb(253, 253, 253);
+}
+
+button {
+    color: #fff;
+    max-width: 250px;
+    margin-top: 15px;
+    text-align: center;
+    height: 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: rgb(31, 163, 224);
+    color: black;
+
 }
 
 @media screen and (max-width:1000px) {
@@ -116,7 +130,8 @@
     .scroll_down {
         display: none;
     }
-    .dev{
+
+    .dev {
         flex-wrap: wrap;
         font-size: 1.5rem;
     }
