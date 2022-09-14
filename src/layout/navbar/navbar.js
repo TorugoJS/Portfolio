@@ -52,7 +52,7 @@ function Navbar(){
 
     return (
         <nav className={styles.navbar_container}>
-            <p className={styles.p_navbar}>Portfólio</p>
+            <p className={styles.p_navbar}>Victor Hugo</p>
             <ul className={navAtiva}>
                 <li className={styles.item} onClick={scrollHome}>Home</li>
                 <li className={styles.item} onClick={scrollSobre}>Sobre mim</li>

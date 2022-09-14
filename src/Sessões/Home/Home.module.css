@@ -45,26 +45,33 @@
     color: #fff;
     margin: 10px;
     gap: 10px;
-    width: 300px;
+    width: 320px;
     text-decoration: none;
     justify-content: space-around;
-    
+
 
 }
 
-.redeSvg {
+.seila {
     text-decoration: none;
-    color: #fff;
+}
+
+.redeSvg {
+    width: 10rem;
+    text-decoration: none;
+    color: rgb(31, 163, 224);
+    margin-right: 20px;
     align-items: center;
     gap: 10px;
+    margin-top: 12px;
     display: flex;
-    border-radius: 8px;
-    background-color: rgb(34, 31, 32);
+    border-radius: 2px;
+
     transition: 0.5s;
 }
 
 .redeSvg:hover {
-    background-color: rgb(31, 163, 224);
+    color: #fff;
 }
 
 .p_segundo {
@@ -106,7 +113,8 @@
 }
 
 .curriculo:hover {
-    background-color: rgb(31, 163, 224);
+    background-color: #fff;
+    color: black;
 }
 
 @media screen and (max-width:1000px) {

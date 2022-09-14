@@ -1,6 +1,6 @@
 
 import { DiCss3, DiSass, DiGit, DiReact, DiBootstrap, DiHtml5 } from 'react-icons/di'
-import {SiJavascript} from 'react-icons/si'
+import { SiJavascript } from 'react-icons/si'
 
 import './tecnologias.css'
 
@@ -28,7 +28,7 @@ function Tecnologias() {
         // <div>
         <div className='habilidades_container'>
 
-            {/* <h1 className='h1-tecnologias'>Tecnologias</h1> */}
+            <h1 className='h1-tecnologias'>Tecnologias</h1>
 
             <div className='techs'>
                 {technologies.map((tech, text) => (
@@ -44,10 +44,10 @@ function Tecnologias() {
                             <h3>{tech.name} </h3>
                         </div>
 
-                        
+
                     </div>
-                
-                    
+
+
                 ))}
                 <div>
                     <h2>Conhecimentos:</h2>

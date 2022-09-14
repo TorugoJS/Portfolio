@@ -1,4 +1,4 @@
-import fotoPefil from '../imagens/Perfil.jpeg'
+import tech from '../imagens/tech.jpg'
 import styles from './Home.module.css'
 import cv from '../curriculo/Curriculo.pdf';
 
@@ -21,12 +21,12 @@ function Home() {
                     <a className={styles.redeSvg} href='https://www.linkedin.com/in/victor-hugodev/'><BsLinkedin />   LinkedIn</a>
                     <a className={styles.redeSvg} href='https://github.com/TorugoJS'><BsGithub />   Github</a>
                 </div>
-                <a download="Victor Hugo CV" href={cv} ><button className={styles.curriculo}>Baixe meu CV</button></a>
+                <a className={styles.seila} download="Victor Hugo CV" href={cv} ><button className={styles.curriculo}>Baixe meu CV!</button></a>
                     </div>
 
                 </div>
 
-                <img alt="fotodeperfil" src={fotoPefil} />
+                <img alt="fotodeperfil" src={tech} />
 
             </div>
 

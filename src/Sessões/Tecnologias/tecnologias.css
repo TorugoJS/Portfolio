@@ -6,6 +6,7 @@
   border: 1px solid rgb(18, 101, 224);
   margin: 0 auto;
   font-size: 7rem;
+  border-radius: 10px;
   flex-wrap: wrap;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 150px;
@@ -14,12 +15,11 @@
 }
 
 .h1-tecnologias {
-  max-width: 200px;
+  display: flex;
+  margin: 0 auto;
   margin-bottom: 60px;
-  text-align: center;
-  font-size: 4rem;
+  font-size: 4.5rem;
   color: #fff;
-  ;
 }
 
 .techs {

@@ -9,10 +9,16 @@
     color: rgb(31, 163, 224);
     transition: 0.2s;
 }
+.sociais{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 50px;
+}
 
 .sobreMim {
     max-width: 1300px;
     margin: 50px auto;
+    justify-content: center;
     display: flex;
     align-items: center;
     border-radius: 50px;
@@ -28,20 +34,15 @@
     height: 300px;
 }
 
-.resumo {
-    width: 50%;
-    padding: 1em;
-    margin-left: 30px;
-}
+
 
 .p_sobre {
-    font-weight: 500;
-    font-size: 27px;
-    color: #7a7a7a;
-    margin-bottom: 15px;
+    display: flex;
+    font-size: 22px;
+    width: 800px;
+    margin: 20px;
     color: #fff;
 }
-
 
 
 
