@@ -18,7 +18,9 @@ function Footer(){
     }
 
     return (
+
         <footer>
+
             <div className='footer-container'>
                 <div className='quem-sou'>
                     <p>Torugodevjs</p>
@@ -26,10 +28,12 @@ function Footer(){
                 </div>
 
                 <div className='partes-pagina'>
+
                     <ul>
                         <li onClick={scrollPortfolio}>Portfólios</li>
                         <li onClick={scrollSobre}>Sobre mim</li>
                     </ul>
+                    
                 </div>
 
                 <div className='rede-sociais'>
@@ -38,7 +42,9 @@ function Footer(){
                     <a target='https://github.com/TorugoJS' href='https://github.com/TorugoJS'><BsGithub /></a>
                 </div>
             </div>
+
             <p className='copy'><span>&copy;</span>Feito Torugodevjs</p>
+
         </footer>   
     )
 }
