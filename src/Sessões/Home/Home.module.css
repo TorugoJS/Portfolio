@@ -54,6 +54,7 @@
 
 .seila {
     text-decoration: none;
+
 }
 
 .redeSvg {
@@ -97,25 +98,7 @@
     background-color: rgb(253, 253, 253);
 }
 
-.curriculo {
-    color: #fff;
-    width: 300px;
-    display: flex;
-    text-decoration: none;
-    justify-content: center;
-    margin-top: 25px;
-    border-radius: 10px;
-    font-size: 1.5rem;
-    cursor: pointer;
-    background-color: rgb(34, 31, 32);
-    color: #fff;
-    transition: 0.5s;
-}
 
-.curriculo:hover {
-    background-color: #fff;
-    color: black;
-}
 
 @media screen and (max-width:1000px) {
     .home_container {

@@ -1,9 +1,9 @@
 .habilidades_container {
   display: flex;
   justify-content: space-between;
-  max-width: 1400px;
+  max-width: 1200px;
   padding: 25px 30px;
-  border: 1px solid rgb(18, 101, 224);
+  box-shadow: 2px 2px 20px 15px rgba(6, 212, 240, 0.5);
   margin: 0 auto;
   font-size: 7rem;
   border-radius: 10px;
@@ -11,13 +11,12 @@
   font-family: 'Poppins', sans-serif;
   margin-bottom: 150px;
   color: #fff;
- 
+
 }
 
 .h1-tecnologias {
   display: flex;
   margin: 0 auto;
-  margin-bottom: 60px;
   font-size: 4.5rem;
   color: #fff;
 }
