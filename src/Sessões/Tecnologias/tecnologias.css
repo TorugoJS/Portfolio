@@ -1,0 +1,100 @@
+.habilidades_container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  padding: 25px 30px;
+  box-shadow: 2px 2px 20px 15px rgba(6, 212, 240, 0.5);
+  margin: 0 auto;
+  font-size: 7rem;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 150px;
+  color: #fff;
+
+}
+
+.h1-tecnologias {
+  display: flex;
+  margin: 0 auto;
+  font-size: 4.5rem;
+  color: #fff;
+}
+
+.techs {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  margin: 0 auto;
+  gap: 4rem;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+
+}
+
+#html svg {
+  color: orange;
+  font-size: 5rem;
+}
+
+#css svg {
+  color: rgb(23, 23, 185);
+  font-size: 5rem;
+}
+
+#react svg {
+  color: rgb(50, 180, 231);
+  font-size: 5rem;
+}
+
+#js svg {
+  color: yellow;
+  font-size: 5rem;
+}
+
+#bootstrap svg {
+  color: purple;
+  font-size: 5rem;
+}
+
+#sass svg {
+  color: pink;
+  font-size: 5rem;
+}
+
+#git svg {
+  color: orange;
+  font-size: 5rem;
+}
+
+
+
+.proj {
+  font-size: 5rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+@media screen and (max-width:800px) {
+  .habilidades_container {
+    justify-content: center;
+    max-width: 1200px;
+    gap: 15px;
+    height: 1800px;
+    flex-wrap: wrap;
+    font-size: 4.8rem;
+  }
+
+  .h1-tecnologias {
+    font-size: 2.5rem;
+  }
+
+  .tech {
+    max-width: 100%
+  }
+}
